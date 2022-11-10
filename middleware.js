@@ -9,5 +9,5 @@ export default function middleware(req, res) {
 }
 // config with custom matcher
 export const config = {
-    matcher: '/post/:path.html',
+    matcher: '/post/:path*',
 };
